@@ -4,13 +4,13 @@
             <div class="md:me-6">
                 
                 <div class="flex items-center">
-                    <img src="{{  asset('assets/images/wondering-logo.png') }}" class="h-12"><h6 class="text-red-500 uppercase text-lg font-bold tracking-wider ms-1">Wondering Seafood Membership App</h6>
+                    <img src="{{  asset('assets/images/wondering-logo.png') }}" class="h-12"><h6 class="text-red-500 uppercase text-lg font-bold tracking-wider ms-1">{{ __('messages.title') }} </h6>
                 </div>
 
                 <h4 class="font-bold lg:leading-normal leading-normal text-[42px] lg:text-[54px] mb-5">
-                The more you <span class="">DINE</span>, The more you <span class="text-red-500">EARN</span></h4>
+                {{__('messages.welcome')}}<span class="text-red-500">{{ __('messages.earn') }}</span></h4>
 
-                <p class="text-slate-400 text-lg max-w-xl">✨ Join our loyalty program today and turn every order into rewards — free meals, exclusive gifts, and special member perks await!</p>
+                <p class="text-slate-400 text-lg max-w-xl">✨ {{__('messages.description')}}</p>
             
                 <div class="mt-6">
                     <a href=""><img src="{{ asset('assets/images/app.png') }}" class="h-12 inline-block m-1" alt="Appstore"></a>

@@ -4,7 +4,7 @@
             <div class="md:col-span-3">
                 <a href="/" class="logo-footer">
                     <div class="flex justify-center">
-                        <img src="{{ asset('assets/images/wondering-logo.png') }}" class="h-12"><h6 class="text-white uppercase text-lg font-bold tracking-wider ms-1 mt-3">Wondering Seafood</h6>
+                        <img src="{{ asset('assets/images/wondering-logo.png') }}" class="h-12"><h6 class="text-white uppercase text-lg font-bold tracking-wider ms-1 mt-3">{{ __('messages.logo') }}</h6>
                     </div>
                 </a>
             </div>
@@ -18,13 +18,14 @@
             <div class="md:col-span-4 md:mt-0 mt-8">
                 <ul class="list-none ltr:md:text-right rtl:md:text-left flex justify-center md:justify-end space-x-6">
                     <li>
-                        <a href="/" class="text-gray-400 hover:text-white">Home</a>
+                        <a href="/" class="text-gray-400 hover:text-white">{{ __('messages.home') }}</a>
                     </li>
                     <li>
-                        <a href="/terms" class="text-gray-400 hover:text-white px-4">Terms</a>
+                        <a href="/terms" class="text-gray-400 hover:text-white px-4">{{ __('messages.terms') }}</a>
                     </li>
                     <li>
-                        <a href="/policy" class="text-gray-400 hover:text-white">Privacy Policy</a>
+                        <a href="/policy" class="text-gray-400 hover:text-white">{{ 
+                            __('messages.policy') }}</a>
                     </li>
                 </ul>
             </div>

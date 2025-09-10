@@ -1,10 +1,10 @@
 <section class="relative md:py-24 py-16" id="features">
     <div class="container relative">
         <div class="grid grid-cols-1 pb-6 text-center">
-            <h6 class="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">Application Benefits</h6>
-            <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Loyalty That Truly Rewards You</h4>
+            <h6 class="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">{{__('messages.feature-benefit')}}</h6>
+            <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">{{ __('messages.feature-title') }}</h4>
 
-            <p class="text-slate-400 max-w-xl mx-auto">Every meal means more -- more rewards, surprises, and elevated status</p>
+            <p class="text-slate-400 max-w-xl mx-auto">{{ __('messages.feature-sub-heading') }}</p>
         </div><!--end grid-->
 
         <div class="grid lg:grid-cols-12 md:grid-cols-12 grid-cols-1 mt-6 gap-6 items-center">
@@ -15,8 +15,8 @@
                             <i data-feather="dollar-sign" class="size-5"></i>
                         </div>
                         <div class="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
-                            <h4 class="mb-0 text-lg font-semibold">Spend to Earn More</h4>
-                            <p class="text-slate-400 mt-3">Dine more, earn more.<br> Bigger meals, bigger rewards!</p>
+                            <h4 class="mb-0 text-lg font-semibold">{{ __('messages.feature-one') }}</h4>
+                            <p class="text-slate-400 mt-3">{{ __('messages.feature-one-desc1') }}<br> {{ __('messages.feature-one-desc2') }}</p>
                         </div>
                     </div>
                     <!--end feature-->
@@ -26,8 +26,8 @@
                             <i data-feather="calendar" class="size-5"></i>
                         </div>
                         <div class="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
-                            <h4 class="mb-0 text-lg font-semibold">Daily Bonus Points</h4>
-                            <p class="text-slate-400 mt-3">Log in daily or scan your bill to score bonus points!</p>
+                            <h4 class="mb-0 text-lg font-semibold">{{ __('messages.feature-two') }}</h4>
+                            <p class="text-slate-400 mt-3">{{ __('messages.feature-two-desc') }}</p>
                         </div>
                     </div>
                     <!--end feature-->
@@ -37,8 +37,8 @@
                             <i data-feather="star" class="size-5"></i>
                         </div>
                         <div class="flex-1 md:order-1 order-2 md:text-end md:me-4 md:ms-0 ms-4">
-                            <h4 class="mb-0 text-lg font-semibold">Double Points Days</h4>
-                            <p class="text-slate-400 mt-3">Earn double points on holidays and special promos.
+                            <h4 class="mb-0 text-lg font-semibold">{{ __('messages.feature-three') }}</h4>
+                            <p class="text-slate-400 mt-3">{{ __('messages.feature-three-desc') }}
                             </p>
                         </div>
                     </div>
@@ -58,8 +58,8 @@
                             <i data-feather="trending-up" class="size-5"></i>
                         </div>
                         <div class="flex-1 ms-4">
-                            <h4 class="mb-0 text-lg font-semibold">Tiered Rewards System</h4>
-                            <p class="text-slate-400 mt-3">Climb the tiers, earn points faster, unlock better rewards!</p>
+                            <h4 class="mb-0 text-lg font-semibold">{{ __('messages.feature-four') }}</h4>
+                            <p class="text-slate-400 mt-3">{{ __('messages.feature-four-desc') }}</p>
                         </div>
                     </div>
                     <!--end feature-->
@@ -69,8 +69,8 @@
                             <i data-feather="gift" class="size-5"></i>
                         </div>
                         <div class="flex-1 ms-4">
-                            <h4 class="mb-0 text-lg font-semibold">Redeem Anything, Anytime</h4>
-                            <p class="text-slate-400 mt-3">Turn point into meals, drinks, or exclusive gifts -- all from the app.</p>
+                            <h4 class="mb-0 text-lg font-semibold">{{ __('messages.feature-five') }}</h4>
+                            <p class="text-slate-400 mt-3">{{ __('messages.feature-five-desc') }}</p>
                         </div>
                     </div>
                     <!--end feature-->
@@ -80,8 +80,8 @@
                             <i data-feather="user-plus" class="size-5"></i>
                         </div>
                         <div class="flex-1 ms-4">
-                            <h4 class="mb-0 text-lg font-semibold">Invite & Earn</h4>
-                            <p class="text-slate-400 mt-3">Invite your friends -- you both score bonus points!</p>
+                            <h4 class="mb-0 text-lg font-semibold">{{ __('messages.feature-six') }}</h4>
+                            <p class="text-slate-400 mt-3">{{ __('messages.feature-six-desc') }}</p>
                         </div>
                     </div>
                     <!--end feature-->

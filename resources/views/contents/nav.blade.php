@@ -4,7 +4,7 @@
             <div class="flex items-center">
                 <img src="{{ asset('assets/images/wondering-logo.png') }}" class="h-12">
                 <h6 class="uppercase text-lg font-bold tracking-wider ms-1 text-black dark:text-white">
-                Wondering Seafood
+                {{ __('messages.logo') }}
                 </h6>
             </div>
         </a>
@@ -23,37 +23,37 @@
             <ul class="navbar-nav" id="navbar-navlist">
                 <li class="nav-item">
                     @if (Request::is('/'))
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#"> {{ __('messages.home') }} </a>
                     @else
-                        <a class="nav-link" href="{{ url('/#') }}">Home</a>
+                        <a class="nav-link" href="{{ url('/#') }}">{{ __('messages.home') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">
                     @if (Request::is('/'))
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about">{{ __('messages.about') }}</a>
                     @else
-                        <a class="nav-link" href="{{ url('/#about') }}">About</a>
+                        <a class="nav-link" href="{{ url('/#about') }}">{{ __('messages.about') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">
                     @if (Request::is('/'))
-                        <a class="nav-link" href="#features">Features</a>
+                        <a class="nav-link" href="#features">{{ __('messages.features') }}</a>
                     @else
-                        <a class="nav-link" href="{{ url('/#features') }}">Features</a>
+                        <a class="nav-link" href="{{ url('/#features') }}">{{ __('messages.features') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">
                     @if (Request::is('/'))
-                        <a class="nav-link" href="#faqs">FAQs</a>
+                        <a class="nav-link" href="#faqs">{{ __('messages.faqs') }}</a>
                     @else
-                        <a class="nav-link" href="{{ url('/#faqs') }}">FAQs</a>
+                        <a class="nav-link" href="{{ url('/#faqs') }}">{{ __('messages.faqs') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">
                     @if (Request::is('/'))
-                        <a class="nav-link" href="#download">Download</a>
+                        <a class="nav-link" href="#download">{{ __('messages.download') }}</a>
                     @else
-                        <a class="nav-link" href="{{ url('/#download') }}">Download</a>
+                        <a class="nav-link" href="{{ url('/#download') }}">{{ __('messages.download') }}</a>
                     @endif
                 </li>
             </ul>
