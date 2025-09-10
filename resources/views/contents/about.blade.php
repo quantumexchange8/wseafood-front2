@@ -4,7 +4,7 @@
             <div class="lg:col-span-5 md:col-span-6 md:order-1 order-2">
                 <!-- Image -->
                 <div class="pt-6 px-6 rounded-2xl bg-red-500/5 dark:bg-red-500/10 shadow-sm shadow-red-500/20">
-                    <img src="assets/images/phone/half-member.png" alt="Wondering Seafood Member Page">
+                    <img src="{{ asset('assets/images/phone/half-member.png') }}" alt="Wondering Seafood Member Page">
                 </div>
             </div><!--end grid-->
 

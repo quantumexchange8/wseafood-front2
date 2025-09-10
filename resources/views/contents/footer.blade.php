@@ -4,7 +4,7 @@
             <div class="md:col-span-3">
                 <a href="/" class="logo-footer">
                     <div class="flex justify-center">
-                        <img src="assets/images/wondering-logo.png" class="h-12"><h6 class="text-white uppercase text-lg font-bold tracking-wider ms-1 mt-3">Wondering Seafood</h6>
+                        <img src="{{ asset('assets/images/wondering-logo.png') }}" class="h-12"><h6 class="text-white uppercase text-lg font-bold tracking-wider ms-1 mt-3">Wondering Seafood</h6>
                     </div>
                 </a>
             </div>

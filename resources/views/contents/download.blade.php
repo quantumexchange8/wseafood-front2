@@ -4,7 +4,7 @@
             <div class="lg:col-span-5 md:col-span-6">
                 <!-- Image -->
                 <div class="pt-6 px-6 rounded-2xl bg-red-500/5 dark:bg-red-500/10 shadow-sm shadow-red-500/20">
-                    <img src="assets/images/phone/half-register.png" class="justify-center" alt="Wondering Seafood Register Page">
+                    <img src="{{ asset('assets/images/phone/half-register.png') }}" class="justify-center" alt="Wondering Seafood Register Page">
                 </div>
             </div><!--end grid-->
 
@@ -14,8 +14,8 @@
                     <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Available for your <br> Smartphones</h4>
                     <p class="text-slate-400 max-w-xl mb-0">Download Wondering Seafood Membership App today!</p>
                     <div class="my-6">
-                        <a href=""><img src="assets/images/app.png" class="h-12 inline-block m-1" alt=""></a>
-                        <a href=""><img src="assets/images/play.png" class="h-12 inline-block m-1" alt=""></a>
+                        <a href=""><img src="{{ asset('assets/images/app.png') }}" class="h-12 inline-block m-1" alt=""></a>
+                        <a href=""><img src="{{ asset('assets/images/play.png') }}" class="h-12 inline-block m-1" alt=""></a>
                     </div>
 
                     <div class="inline-block">

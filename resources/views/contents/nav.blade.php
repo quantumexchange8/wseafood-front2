@@ -2,7 +2,7 @@
     <div class="container relative flex flex-wrap items-center justify-between">
         <a class="navbar-brand md:me-8 flex items-center" href="/">
             <div class="flex items-center">
-                <img src="assets/images/wondering-logo.png" class="h-12">
+                <img src="{{ asset('assets/images/wondering-logo.png') }}" class="h-12">
                 <h6 class="uppercase text-lg font-bold tracking-wider ms-1 text-black dark:text-white">
                 Wondering Seafood
                 </h6>

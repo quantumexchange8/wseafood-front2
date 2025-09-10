@@ -48,7 +48,7 @@
 
             <!-- Image -->
             <div class="lg:col-span-4 md:col-span-12 lg:mx-4 lg:order-2 order-1">
-                <img src="assets/images/phone/phone-reward.png" class="mx-auto" alt="Wondering Seafood Reward Page">
+                <img src="{{ asset('assets/images/phone/phone-reward.png') }}" class="mx-auto" alt="Wondering Seafood Reward Page">
             </div>
 
             <div class="lg:col-span-4 md:col-span-6 order-3">

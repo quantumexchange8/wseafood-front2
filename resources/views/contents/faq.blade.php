@@ -4,7 +4,7 @@
             <div class="relative order-1 md:order-2">
                 <!-- Image -->
                 <div class="relative">
-                    <img src="assets/images/phone/phone1.png" class="mx-auto md:max-w-xs lg:max-w-sm" alt="Wondering Seafood Notification Page">
+                    <img src="{{  asset('assets/images/phone/phone1.png') }}" class="mx-auto md:max-w-xs lg:max-w-sm" alt="Wondering Seafood Notification Page">
 
                 </div>
                 <div class="overflow-hidden absolute md:size-[500px] size-[400px] bg-gradient-to-tr to-red-500/20 via-red-500/70 from-red-500 bottom-1/2 translate-y-1/2 md:end-0 end-1/2 md:translate-x-0 translate-x-1/2 -z-1 shadow-md shadow-red-500/10 rounded-full">
