@@ -124,25 +124,41 @@ function topFunction() {
 /* Dark & Light Mode */
 /*********************/
 try {
-    function changeTheme(e){
-        e.preventDefault()
-        const htmlTag = document.getElementsByTagName("html")[0]
-        
-        if (htmlTag.className.includes("dark")) {
-            htmlTag.className = 'light'
+    function changeTheme(e) {
+        e?.preventDefault?.();
+        const htmlTag = document.documentElement;
+
+        if (htmlTag.classList.contains("dark")) {
+            htmlTag.classList.remove("dark");
+            htmlTag.classList.add("light");
+            localStorage.setItem("theme", "light"); 
+            chk.checked = false;
         } else {
-            htmlTag.className = 'dark'
+            htmlTag.classList.remove("light");
+            htmlTag.classList.add("dark");
+            localStorage.setItem("theme", "dark"); 
+            chk.checked = true;
         }
     }
 
-    const switcher = document.getElementById("theme-mode")
-    switcher?.addEventListener("click" ,changeTheme )
-    
-    const chk = document.getElementById('chk');
+    const switcher = document.getElementById("theme-mode");
+    switcher?.addEventListener("click", changeTheme);
 
-    chk.addEventListener('change',changeTheme);
+    const chk = document.getElementById("chk");
+    chk?.addEventListener("change", changeTheme);
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            document.documentElement.classList.add("dark");
+            chk.checked = true;
+        } else {
+            document.documentElement.classList.add("light");
+            chk.checked = false;
+        }
+    });
 } catch (err) {
-    
+    console.error(err);
 }
 
 
