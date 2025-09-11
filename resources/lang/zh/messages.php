@@ -5,7 +5,7 @@ return [
     'english' => 'EN',
 
     //Navbar
-    'logo' =>'旺鼎海鲜楼',
+    'logo' =>'旺鼎海鲜',
     'home' => '首页',
     'about' => '关于',
     'features' => '功能',
@@ -17,7 +17,7 @@ return [
     'policy' => '隐私政策',
 
     //Banner
-    'title'=>'旺鼎海鲜楼会员App',
+    'title'=>'旺鼎海鲜会员App',
     'welcome' => '吃得越多，赚的',
     'earn' =>'更多',
     'description' =>'立即加入我们的会员积分计划， 每一次点餐都能换来惊喜好礼、免费美食，还有专属会员等你领取！',
@@ -76,8 +76,8 @@ return [
     'faq-second-desc1' => '会员积分将根据您的消费或促销活动来添加。',
     'faq-second-desc2' => '如果您认为积分有遗漏或错误， 欢迎联系我们的客服团队。',
     'faq-three' => '地点与营业时间',
-    'plan-a' => '旺鼎Plan A海鲜楼',
-    'plan-b' => '旺鼎Plan B海鲜楼',
+    'plan-a' => '旺鼎Plan A海鲜',
+    'plan-b' => '旺鼎Plan B海鲜',
     'address' => '地点',
     'hour' => '营业时间',
     'contact' => '联系',
@@ -90,18 +90,18 @@ return [
     //Download
     'call-to-action' => '立即行动',
     'download-title' => '适用于您的智能手机',
-    'download-sub-heading' => '立即下载旺鼎海鲜楼会员App！',
+    'download-sub-heading' => '立即下载旺鼎海鲜会员App！',
     'install-now' => '马上在您的智能手机上安装应用吧！',
 
     //Terms
     'terms-conditions' => '服务条规',
-    'terms-desc' => '欢迎使用旺鼎海鲜楼会员App （“本App”）。使用本App即表示您同意以下服务条规。',
+    'terms-desc' => '欢迎使用旺鼎海鲜会员App （“本App”）。使用本App即表示您同意以下服务条规。',
     'terms-one' => '1. 会员资格',
     'terms-one-desc' => '您必须年满18岁方可注册。会员资格不得转让。',
     'terms-two' => '2. 积分累积与兑换',
     'terms-two-desc' => '积分仅限于店内消费后获取，不具现金价值。过期积分将不会恢复。',
     'terms-three' => '3. 修改与终止',
-    'terms-three-desc' => 'Wondering Plan A Sdn Bhd 有权在不另行通知的情况下，修改或终止会员计划。',
+    'terms-three-desc' => 'Wondering Plan A Seafood 有权在不另行通知的情况下，修改或终止会员计划。',
     'terms-four' => '4. 账户滥用',
     'terms-four-desc' => '如发现账户存在泛滥行为 （例如：欺诈）， 我们有权暂停其使用，且不给予赔偿。',
     'terms-five' => '5. 适用法律',
@@ -109,7 +109,7 @@ return [
 
     //Policy
     'privacy-policy' => '隐私政策',
-    'policy-desc' => '本隐私政策说明 Wondering Plan A Sdn Bhd（“我们”）如何在您使用本App时收集，使用以及保护您的信息。',
+    'policy-desc' => '本隐私政策说明 Wondering Plan A Seafood（“我们”）如何在您使用本App时收集，使用以及保护您的信息。',
     'policy-one' => '1. 我们收集的信息',
     'policy-one-desc' => '我们可能收集您的姓名、手机号码、电邮地址、出生日期、以及消费和访问记录。',
     'policy-two' => '2. 使用方式',

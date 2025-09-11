@@ -101,7 +101,7 @@ return[
     'terms-two' => '2. Points Collection & Redemption',
     'terms-two-desc' => 'Points are awarded based on in-store purchases only and have no cash value. Expired points will bot be reinstated.',
     'terms-three' => '3. Modification & Termination',
-    'terms-three-desc' => 'Wondering Plan A Sdn Bhd reserves the right to change or terminate the program at anytime without prior notice.',
+    'terms-three-desc' => 'Wondering Plan A Seafood reserves the right to change or terminate the program at anytime without prior notice.',
     'terms-four' => '4. Misuse of Account',
     'terms-four-desc' => 'Accounts found to be obusing the system (e.g fraud) will be suspended without compensation.',
     'terms-five' => '5. Governing Law',
@@ -109,7 +109,7 @@ return[
 
     //Policy
     'privacy-policy' => 'Privacy Policy',
-    'policy-desc' => 'This Privacy Policy explains how Wondering Plan A Sdn Bhd ("we", "us", "our") collects, uses, and protects your information when you use our App.',
+    'policy-desc' => 'This Privacy Policy explains how Wondering Plan A Seafood ("we", "us", "our") collects, uses, and protects your information when you use our App.',
     'policy-one' => '1. Information We Collect',
     'policy-one-desc' => 'We may collect your name, phone number, email address, date of birth, and visit or transaction records.',
     'policy-two' => '2. How We Use It',
