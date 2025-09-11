@@ -7,36 +7,36 @@
     <div class="container relative">
         <div class=" items-center mt-16 gap-[30px] relative">
             <h2 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">
-                Terms & Conditions
+                {{ __('messages.terms-conditions') }}
             </h2>
 
             <p class="text-slate-500 dark:text-gray-400 text-lg mb-6 font-bold">
-                Welcome to Wondering Seafood Membership App ("the App"). By using this App, you agree to be bound by the following Terms & Conditions.
+                {{ __('messages.terms-desc') }}
             </p>
 
             <p class="text-slate-400 dark:text-gray-400 mb-6">
-                <strong class="text-lg text-slate-500">1. Membership Eligibility</strong><br>
-                You must be at least 18 years old to register. Membership is non-transferable.
+                <strong class="text-lg text-slate-500">{{ __('messages.terms-one') }}</strong><br>
+                {{ __('messages.terms-one-desc') }}
             </p>
 
             <p class="text-slate-400 dark:text-gray-400 mb-6">
-                <strong class="text-lg text-slate-500">2. Points Collection & Redemption</strong><br>
-                Points are awarded based on in-store purchases only and have no cash value. Expired points will not be reinstated.
+                <strong class="text-lg text-slate-500">
+                    {{ __('messages.terms-two') }}</strong><br>{{__('messages.terms-two-desc')}}
             </p>
 
             <p class="text-slate-400 dark:text-gray-400 mb-6">
-                <strong class="text-lg text-slate-500">3. Modification & Termination</strong><br>
-                Wondering Plan A Sdn Bhd reserves the right to change or terminate the program at anytime without prior notice.
+                <strong class="text-lg text-slate-500">{{ __('messages.terms-three') }}</strong><br>
+                {{ __('messages.terms-three-desc') }}
             </p>
 
             <p class="text-slate-400 dark:text-gray-400 mb-6">
-                <strong class="text-lg text-slate-500">4. Misuse of Account</strong><br>
-                Accounts found to be abusing the system (e.g. fraud) will be suspended without compensation.
+                <strong class="text-lg text-slate-500">{{ __('messages.terms-four') }}</strong><br>
+                {{ __('messages.terms-four-desc') }}
             </p>
 
             <p class="text-slate-400 dark:text-gray-400">
-                <strong class="text-lg text-slate-500">5. Governing Law</strong><br>
-                These terms shall be governed by the laws of Malaysia.
+                <strong class="text-lg text-slate-500">{{ __('messages.terms-five') }}</strong><br>
+                {{__('messages.terms-five-desc')}}
             </p>
         </div>
     </div>

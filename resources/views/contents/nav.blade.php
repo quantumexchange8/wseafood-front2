@@ -23,9 +23,9 @@
             <ul class="navbar-nav" id="navbar-navlist">
                 <li class="nav-item">
                     @if (Request::is('/'))
-                        <a class="nav-link" href="#"> {{ __('messages.home') }} </a>
+                        <a class="nav-link active" href="#home"> {{ __('messages.home') }} </a>
                     @else
-                        <a class="nav-link" href="{{ url('/#') }}">{{ __('messages.home') }}</a>
+                        <a class="nav-link " href="{{ url('/#home') }}">{{ __('messages.home') }}</a>
                     @endif
                 </li>
                 <li class="nav-item">

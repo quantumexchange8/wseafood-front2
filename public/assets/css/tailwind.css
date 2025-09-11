@@ -651,6 +651,21 @@
   .-right-3 {
     right: calc(var(--spacing) * -3);
   }
+  .-right-4 {
+    right: calc(var(--spacing) * -4);
+  }
+  .-right-5 {
+    right: calc(var(--spacing) * -5);
+  }
+  .-right-6 {
+    right: calc(var(--spacing) * -6);
+  }
+  .-right-7 {
+    right: calc(var(--spacing) * -7);
+  }
+  .right-full {
+    right: 100%;
+}
   .-bottom-\[2px\] {
     bottom: calc(2px * -1);
   }
@@ -1149,6 +1164,9 @@
   }
   .w-14 {
     width: calc(var(--spacing) * 14);
+  }
+  .w-21 {
+    width: calc(var(--spacing) * 21);
   }
   .w-52 {
     width: calc(var(--spacing) * 52);

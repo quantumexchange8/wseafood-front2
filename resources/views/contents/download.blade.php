@@ -10,9 +10,9 @@
 
             <div class="lg:col-span-7 md:col-span-6">
                 <div class="lg:ms-10">
-                    <h6 class="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">Call to Action</h6>
-                    <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">Available for your <br> Smartphones</h4>
-                    <p class="text-slate-400 max-w-xl mb-0">Download Wondering Seafood Membership App today!</p>
+                    <h6 class="text-red-500 uppercase text-sm font-bold tracking-wider mb-3">{{__('messages.call-to-action')}}</h6>
+                    <h4 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-bold">{!! __('messages.download-title') !!}</h4>
+                    <p class="text-slate-400 max-w-xl mb-0">{{ __('messages.download-sub-heading') }}</p>
                     <div class="my-6">
                         <a href=""><img src="{{ asset('assets/images/app.png') }}" class="h-12 inline-block m-1" alt=""></a>
                         <a href=""><img src="{{ asset('assets/images/play.png') }}" class="h-12 inline-block m-1" alt=""></a>
@@ -22,7 +22,7 @@
                         <div class="pt-4 flex items-center border-t border-gray-100 dark:border-gray-800">
                             <i data-feather="smartphone" class="me-2 text-red-500 size-10"></i>
                             <div class="content">
-                                <h6 class="text-base font-medium">Install app now on your cellphones</h6>
+                                <h6 class="text-base font-medium">{{ __('messages.install-now') }}</h6>
                                 
                             </div>
                         </div>

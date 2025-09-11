@@ -53,14 +53,28 @@
         </div>
         <!-- Switcher -->
 
-        <div class="fixed top-1/3 -right-3 z-50">
-            <a href="{{ route('switchLang', ['locale' => App::getLocale() == 'en' ? 'zh' : 'en']) }}" id="switchLang">
-                <span class="py-1 px-3 relative inline-block rounded-t-md -rotate-90 bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-md dark:shadow-gray-800 font-semibold">
-                    {{ App::getLocale() == 'en' ? __('messages.switch_to_chinese') : __('messages.switch_to_english') }}
-                </span>
-            </a>
-        </div>
+        <div class="fixed top-1/3 -right-2 z-50">
+            <div class="relative inline-block ">
+                <button id="langDropdownBtn" type="button" class="w-21 py-1 px-4 relative inline-block rounded-t-md  bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-md dark:shadow-gray-800 font-semibold text-center">
+                    {{ App::getLocale() == 'en' ? __('messages.english') : __('messages.chinese') }}
+                    <svg class="w-4 h-4 inline-block ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </button>
 
+                <!-- Dropdown -->
+                <div id="langDropdownMenu" 
+                    class="hidden absolute top-0 mr-2 w-21 bg-white dark:bg-slate-900 shadow-lg z-50">
+                    <a href="{{ route('switchLang', ['locale' => 'en']) }}" class="block px-4 py-2 text-sm  {{ App::getLocale() == 'en' 
+                                ? 'text-red-500 font-bold' 
+                                : 'text-slate-700 dark:text-white' }}">{{ __('messages.english') }}</a>
+                    <a href="{{ route('switchLang', ['locale' => 'zh']) }}" class="block px-4 py-2 text-sm {{ App::getLocale() == 'zh' 
+                                ? 'text-red-500 font-bold' 
+                                : 'text-slate-700 dark:text-white' }}">{{__('messages.chinese')}}</a>
+                </div>
+            </div>
+        </div>
+        
         <!-- JAVASCRIPTS -->
         <script src="{{ asset ('assets/libs/feather-icons/feather.min.js') }}"></script>
         <script src="{{ asset('assets/libs/gumshoejs/gumshoe.polyfills.min.js') }}"></script>

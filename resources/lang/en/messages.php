@@ -1,11 +1,11 @@
 <?php
 return[
     //Master
-    'switch_to_chinese' => '中文',
-    'switch_to_english' => 'EN',
+    'chinese' => '中文',
+    'english' => 'EN',
 
     //Navbar
-    'logo'=>'wongdering seafood',
+    'logo'=>'wondering seafood',
     'home' => 'Home',
     'about' => 'About',
     'features' => 'Features',
@@ -37,7 +37,7 @@ return[
     //User Guide
     'user-guide' =>'user guide',
     'guide-title' => 'How It Works',
-    'guide-sub-heading' =>'It\s simple rewarding -- just follow three easy steps to start earning.',
+    'guide-sub-heading' =>'It\'s simple rewarding -- just follow three easy steps to start earning.',
     'step-one-title' => 'Register for free',
     'step-one-desc' => 'Create your account in seconds -- no fees, no hidden conditions. Just sign up and you\'re in!',
     'step-two-title' => 'Earn Points',
@@ -67,17 +67,65 @@ return[
     'faq' => 'faqs',
     'faq-title' => 'Have Question? Look Here',
     'faq-sub-heading' => 'Here you\'ll find key information on the Terms, Policy and Support details to help you reach us anytime.',
-    'faq-first' => 'What can i do with thie app?',
+    'faq-first' => 'What can I do with the app?',
     'faq-first-content' => 'The app is designed to enhance your experience as a member. You can:',
     'faq-first-desc1' => 'a. View our latest menu items',
     'faq-first-desc2' => 'b. Receive exclusive notifications',
     'faq-first-desc3' => 'c. Track your membership points',
-    'faq-first-note' => 'Please note: ordering and purchases are not available through the app.'
+    'faq-second' => 'How are membership points updated?',
+    'faq-second-desc1' => 'Membership points are allocate based on your purchases or promotions.',
+    'faq-second-desc2' => 'If you believe your points are missing or incorrect, feel free to contact our support team.',
+    'faq-three' => 'Location & Hours',
+    'plan-a' => 'Wondering Plan A Seafood',
+    'plan-b' => 'Wondering Plan B Seafood',
+    'address' => 'Address',
+    'hour' => 'Operating Hours',
+    'contact' => 'Contact',
+    'mon-wed' => 'Monday - Wednesday',
+    'thurs' => 'Thursday',
+    'fri-sun' => 'Friday - Sunday',
+    'rest' => 'Rest',
+    'more' => 'Find Out More',
 
     //Download
+    'call-to-action' => 'call to action',
+    'download-title' => 'Available for your<br>Smartphones',
+    'download-sub-heading' => 'Download Wondering Seafood Membership App today!',
+    'install-now' => 'Install app now on your cellphones',
 
     //Terms
+    'terms-conditions' => 'Terms & Conditions',
+    'terms-desc' => 'Welcome to Wondering Seafood Membership App ("the App"). By using this App, you agree to be bound by the following Terms and Conditions.',
+    'terms-one' => '1. Membership Eligibility',
+    'terms-one-desc' => 'You must be at least 18 years old to register. Membership is non-transferable.',
+    'terms-two' => '2. Points Collection & Redemption',
+    'terms-two-desc' => 'Points are awarded based on in-store purchases only and have no cash value. Expired points will bot be reinstated.',
+    'terms-three' => '3. Modification & Termination',
+    'terms-three-desc' => 'Wondering Plan A Sdn Bhd reserves the right to change or terminate the program at anytime without prior notice.',
+    'terms-four' => '4. Misuse of Account',
+    'terms-four-desc' => 'Accounts found to be obusing the system (e.g fraud) will be suspended without compensation.',
+    'terms-five' => '5. Governing Law',
+    'terms-five-desc' => 'These Terms shall be governed by the law of Malaysia.',
 
     //Policy
+    'privacy-policy' => 'Privacy Policy',
+    'policy-desc' => 'This Privacy Policy explains how Wondering Plan A Sdn Bhd ("we", "us", "our") collects, uses, and protects your information when you use our App.',
+    'policy-one' => '1. Information We Collect',
+    'policy-one-desc' => 'We may collect your name, phone number, email address, date of birth, and visit or transaction records.',
+    'policy-two' => '2. How We Use It',
+    'policy-two-desc' => 'We use your information to:',
+    'policy-two-info1' => 'Manage your membership and points',
+    'policy-two-info2' => 'Send promotional messages (with your consent)',
+    'policy-two-info3' => 'Improve customer experience',
+    'policy-three' => '3. Data Protection',
+    'policy-three-desc' => 'We implement reasonable technical and organizational measures to protect your data against unauthorized access, alteration, disclosure, or destruction.',
+    'policy-four' => '4. Third Parties',
+    'policy-four-desc' => 'We do not sell or rent your data. Your data may be shared with service providers strictly for operating our app.',
+    'policy-five' => '5. Your Rights',
+    'policy-five-desc' => 'You may request to view, correct, or delete your personal information by contacting us at: support@wonderingmember.com',
+    'policy-six' => '6. Cookies and Tracking',
+    'policy-six-desc' => 'Our service may use cookies and similar technologies to enhance functionality and analyze usage.',
+    'policy-seven' => '7. Updates',
+    'policy-seven-desc' => 'We may update this Privacy Policy. Continued use of the App indicates acceptance of any changes.'
 ];
 ?>
