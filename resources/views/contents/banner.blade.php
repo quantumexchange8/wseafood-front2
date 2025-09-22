@@ -15,6 +15,7 @@
                 <div class="mt-6">
                     <a href=""><img src="{{ asset('assets/images/app.png') }}" class="h-12 inline-block m-1" alt="Appstore"></a>
                     <a href=""><img src="{{ asset('assets/images/play.png') }}" class="h-12 inline-block m-1" alt="Google Playstore"></a>
+                    <a href="https://wonderingmember.com/wondering.apk"><img src="{{ asset('assets/images/apk.png') }}" class="h-12 inline-block m-1" alt="Android APK"></a>
                 </div>
             </div>
 
